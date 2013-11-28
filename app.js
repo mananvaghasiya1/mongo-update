@@ -18,7 +18,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/helloMongo', function(err, db) {
         console.log('no entry in mongodb for this tenant.');
       }
     });
-
+//added a simple comment
 var a = "special_acess.communication.manager";
     collection.update({
       "tenant_id": 1
